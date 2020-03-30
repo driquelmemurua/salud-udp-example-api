@@ -8,6 +8,7 @@
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc"
   },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -20,5 +21,8 @@
   },
   "devDependencies": {
     "@types/node": "^13.9.5"
+  },
+  "engines": {
+    "node": "13.x"
   }
 }
